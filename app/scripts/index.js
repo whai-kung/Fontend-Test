@@ -32,11 +32,11 @@ var hogarth = {
         infoWindow.open(map);
         map.setCenter(pos);
       }, function() {
-        handleLocationError(true, infoWindow, map.getCenter());
+        hogarth.handleLocationError(true, infoWindow, map.getCenter());
       });
     } else {
       // Browser doesn't support Geolocation
-      handleLocationError(false, infoWindow, map.getCenter());
+      hogarth.handleLocationError(false, infoWindow, map.getCenter());
     }
   },
   handleLocationError: function(browserHasGeolocation, infoWindow, pos){
