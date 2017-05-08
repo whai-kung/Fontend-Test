@@ -6,8 +6,9 @@
 or
 `git clone https://github.com/whai-kung/Fontend-Test.git` for https
 
-`npm install
-`bower install
+`npm install`
+and
+`bower install`
 
 ## To run the project
 For developing you can user `gulp watch` to compile less to css
