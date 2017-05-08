@@ -1,0 +1,32 @@
+{
+  "name": "fontend",
+  "version": "1.0.0",
+  "description": "test font end",
+  "main": "serve.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whai-kung/Fontend-Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whai-kung/Fontend-Test/issues"
+  },
+  "homepage": "https://github.com/whai-kung/Fontend-Test#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-connect": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-useref": "^3.1.2",
+    "yargs": "^7.1.0"
+  }
+}
