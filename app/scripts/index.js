@@ -17,7 +17,7 @@ var hogarth = {
       center: {lat: -34.397, lng: 150.644},
       zoom: 12
     });
-    infoWindow = new google.maps.InfoWindow;
+    infoWindow = new google.maps.InfoWindow();
     map.setOptions({ scrollwheel: false });
     // Try HTML5 geolocation.
     if (navigator.geolocation) {
